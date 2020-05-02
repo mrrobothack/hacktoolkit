@@ -29,7 +29,7 @@ print("""
 girdi=input("------>")
 
 if (girdi==2):
-	os.system("git clone https://github.com/mrrobothack/hacktoolkit.git")
+	os.system("cd .. && git clone https://github.com/mrrobothack/hacktoolkit.git")
 if (girdi==3):
 	os.system("exit")
 if (girdi==4):
