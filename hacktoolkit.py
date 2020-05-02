@@ -28,27 +28,29 @@ print("""
 5]Exit""")
 girdi=input("------>")
 
-if (girdi==1):
-	os.system("clear")
-
-	print("""
-1]apt-get update
-2]apt-get upgrade
-3]apt-get dist-upgrade""")
-girdii=input("------>")
-if (girdii==1):
-	os.system("sudo apt-get update")
-if (girdii==2):
-	os.system("sudo apt-get upgrade")
-if (girdii==3):
-	os.system("sudo apt-get dist-upgrade")
-
 if (girdi==2):
-	os.system("git clone https://github.com")
+	os.system("git clone https://github.com/mrrobothack/hacktoolkit.git")
 if (girdi==3):
 	os.system("exit")
 if (girdi==4):
 	os.system("exit")
 if (girdi==5):
 	os.system("exit")
+
+if (girdi==1):
+	os.system("clear")
+	print(banner)
+	print("""
+11]apt-get update
+22]apt-get upgrade
+33]apt-get dist-upgrade""")
+girdii=input("------>")
+if (girdii==11):
+	os.system("sudo apt-get update")
+if (girdii==22):
+	os.system("sudo apt-get upgrade")
+if (girdii==33):
+	os.system("sudo apt-get dist-upgrade")
+
+
 
