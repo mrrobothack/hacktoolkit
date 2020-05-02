@@ -30,12 +30,26 @@ girdi=input("------>")
 
 if (girdi==2):
 	os.system("cd .. && git clone https://github.com/mrrobothack/hacktoolkit.git")
+
 if (girdi==3):
-	os.system("exit")
+	os.system("clear")
+	print(banner)
+	print("""
+111]ShellPhish
+222]BlackEye""")
+girdiii=input("------>")
+if (girdiii==111):
+	os.system("clear && cd shellphish && bash shellphish.sh")
+if (girdiii==222):
+	os.system("clear && cd blackeye && bash blackeye.sh")
+
+
 if (girdi==4):
 	os.system("exit")
+
 if (girdi==5):
 	os.system("exit")
+
 
 if (girdi==1):
 	os.system("clear")
